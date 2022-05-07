@@ -61,7 +61,7 @@ def dellete(docnumber):
             break
 
     if not_found == True:
-        print('Документ с таким номером не найден')
+        print('Документ  с таким номером не найден')
 
     for key, value in directories.items():
         if docnumber in value:
