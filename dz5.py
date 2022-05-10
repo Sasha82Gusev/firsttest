@@ -38,7 +38,7 @@ def add(type, number, fio, polka):
         documents.append({"type": type, "number": number, "name": fio})
         directories[polka].append(number)
     else:
-        print('Нет такой полки, данные не добавлены')
+        print('Неть такой полки, данные не добавлены')
 
 
 def addshelf(ads):
