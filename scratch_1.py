@@ -1,13 +1,6 @@
-import yadisk
-from pprint import pprint
 import requests
-#from ya_disk import YandexDisk
 
 TOKEN="AQAAAAAS8FNvAADLW6rn6rr7aUahsINUYMVbAp8"
-#files_url = 'https://cloud-api.yandex.net/v1/disk/resources/files'
-#headers = {'Content-Type': 'aplication/json', 'Authorization': 'OAuth {TOKEN}'}
-
-
 
 class YandexDisk:
 
@@ -33,17 +26,6 @@ class YandexDisk:
         if response.status_code == 201:
             print("Good")
 
-
-#y = yadisk.YaDisk(token=token)
-#otv = y.get_files(fields = 'antivirus_status', limit = 10) # Проверим токен
-#pprint(list(otv))
-
-
-#response = requests.get(files_url,headers=headers)
-#pprint(response.json())
-#y.mkdir("/Hello Word") # Создать папку
-#y.upload("file1.txt", "/test/file1.txt") # Загружает первый файл
-#y.upload("file2.txt", "/test/file2.txt") # Загружает второй файл
 
 if __name__ == '__main__':
     ya = YandexDisk(token = TOKEN)
