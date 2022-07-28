@@ -13,4 +13,6 @@ for id in range(len(response.json())):
 
 
 
+
+
 print(max_intelligence_name)
