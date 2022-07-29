@@ -1,6 +1,6 @@
 import requests
 
-TOKEN="AQAAAAAS8FNvAADLW6rn6rr7aUahsINUYMVbAp8"
+TOKEN=""
 
 max_intelligence = 0
 

@@ -11,8 +11,4 @@ for id in range(len(response.json())):
             max_intelligence_name = response.json()[id]['name']
 
 
-
-
-
-
-print(max_intelligence_name)
+print("Самый умный супергерой это ",max_intelligence_name)
